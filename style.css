@@ -108,7 +108,7 @@ html{
 .home .hero{
     min-height: 100vh;
     min-width: 200vh;
-    background: url(./assets/images/chess.jpeg) no-repeat;
+    background: url(./chess.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -243,4 +243,18 @@ html{
     background:var(--green);
   }
  
-  
+  .project .row{
+    margin: 0 0 0 45%;
+   
+  }
+  .project h3{
+    margin: 0 0 0 30%;
+
+  }
+  .project p{
+    font-size: medium;
+  }
+  .project .row .button{
+    width: 50%;
+    height: 50%;
+  }
